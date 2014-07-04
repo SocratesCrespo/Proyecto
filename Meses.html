@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IEB:Meses del Año</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="java.js"></script>
+	<script src="jquery-1.3.2.min.js" type="text/javascript"></script>   
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/meses.css" />
+</head>
+<body>
+	<nav id="nav">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="index.html#banner">Temas</a></li>
+			<li><a href="index.html#main">Instrucciones</a></li>
+			<li><a href="index.html#features">Acerca de</a></li>
+			<li><a href="#">Traductor</a></li>
+
+		</ul>
+	</nav>
+
+	<header id="test"><h1>Traduce este texto</h1></header>
+	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>February</h2>
+				<form name="botones1" class="botones">
+					<input type="button" name="boton1" class="p" value="Junio"  onclick="two(this)"/>
+					<input type="button" name="boton2" class="p" value="Julio"   onclick="two(this)">
+					<input type="button" name="boton3" class="p" value="Agosto"  onclick="two(this)">
+					<input type="button" name="boton4" class="p" value="Febrero" onclick="one(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>January</h2>
+				<form name="botones2" class="botones">
+					<input type="button" name="boton1" class="p" value="Marzo"  onclick="two2(this)"/>
+					<input type="button" name="boton2" class="p" value="Enero"   onclick="one2(this)">
+					<input type="button" name="boton3" class="p" value="Junio"  onclick="two2(this)">
+					<input type="button" name="boton4" class="p" value="Diciembre" onclick="two2(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>Diciembre tiene 31 días</h2>
+				<form name="botones3" class="botones">
+					<input type="button" name="boton1" class="p" value="January has 31 days"  onclick="two3(this)"/>
+					<input type="button" name="boton2" class="p" value="August has 31 days"   onclick="two3(this)">
+					<input type="button" name="boton3" class="p" value="December has 31 days"  onclick="one3(this)">
+					<input type="button" name="boton4" class="p" value="February has 31 days" onclick="two3(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>January is the first month of the year</h2>
+				<form name="botones4" class="botones">
+					<input type="button" name="boton1" class="p" value="Enero es el primer mes del año"  onclick="one4(this)"/>
+					<input type="button" name="boton2" class="p" value="Enero es el último mes del año"   onclick="two4(this)">
+					<input type="button" name="boton3" class="p" value="Julio es el primer mes de año"  onclick="two4(this)">
+					<input type="button" name="boton4" class="p" value="Junio es el último mes del año" onclick="two4(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>December</h2>
+				<form name="botones5" class="botones">
+					<input type="button" name="boton1" class="p" value="Diciembre"  onclick="one5(this)"/>
+					<input type="button" name="boton2" class="p" value="Noviembre"   onclick="two5(this)">
+					<input type="button" name="boton3" class="p" value="Septiembre"  onclick="two5(this)">
+					<input type="button" name="boton4" class="p" value="Octubre" onclick="two5(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>Julio</h2>
+				<form name="botones6" class="botones">
+					<input type="button" name="boton1" class="p" value="August"  onclick="two6(this)"/>
+					<input type="button" name="boton2" class="p" value="September"   onclick="two6(this)">
+					<input type="button" name="boton3" class="p" value="July"  onclick="one6(this)">
+					<input type="button" name="boton4" class="p" value="June" onclick="two6(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>March is the third month of the year</h2>
+				<form name="botones7" class="botones">
+					<input type="button" name="boton1" class="p" value="Abril es el tercer mes del año"  onclick="two7(this)"/>
+					<input type="button" name="boton2" class="p" value="Marzo es el tecer mes del año"   onclick="one7(this)">
+					<input type="button" name="boton3" class="p" value="Agosto es el tercer mes del año"  onclick="two7(this)">
+					<input type="button" name="boton4" class="p" value="Diciembre es el tercer mes del año" onclick="two7(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>Vacations start in July</h2>
+				<form name="botones8" class="botones">
+					<input type="button" name="boton1" class="p" value="Las vaciones son en Marzo"  onclick="two8(this)"/>
+					<input type="button" name="boton2" class="p" value="Las vacaciones comienzan en Abril"   onclick="two8(this)">
+					<input type="button" name="boton3" class="p" value="Las vaciones son en Enero"  onclick="two8(this)">
+					<input type="button" name="boton4" class="p" value="Las vacaciones comienzan en Julio" onclick="one8(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>Noviembre es mi mes favorito</h2>
+				<form name="botones9" class="botones">
+					<input type="button" name="boton1" class="p" value="April is my favorite month"  onclick="two9(this)"/>
+					<input type="button" name="boton2" class="p" value="November is my favorite month"   onclick="one9(this)">
+					<input type="button" name="boton3" class="p" value="January is my favorite month"  onclick="two9(this)">
+					<input type="button" name="boton4" class="p" value="July is my favorite month" onclick="two9(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+ 	<section>
+		<article id="contenedor">
+			<div id="eliminado">
+				<h2>No me gusta Enero</h2>
+				<form name="botones10" class="botones">
+					<input type="button" name="boton1" class="p" value="I don't like April"   onclick="final2(this)">
+					<input type="button" name="boton2" class="p" value="I don't like July"   onclick="final2(this)">
+					<input type="button" name="boton3" class="p" value="I don't like June"  onclick="final2(this)">
+					<input type="button" name="boton4" class="p" value="I don't like January" onclick="final1(this)">
+				</form>
+			</div>
+ 		</article>
+ 	</section>
+	<footer>
+		<section class="contact">
+			<h3>Contáctanos</h3>
+			<ul class="icons">
+				<li><a href="https://twitter.com/Castelo_07" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+				<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>
+				<li><a href="https://plus.google.com/u/0/+S%C3%B3cratesCrespoLara/posts" class="fa fa-google-plus solo"><span>Google+</span></a></li>
+				<li><a href="#" class="fa fa-pinterest solo"><span>Pinterest</span></a></li>
+			</ul>
+		</section>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; IEB. Todos los Derechos Reservados</li>
+				<li>Ingles Basico Interactivo</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
